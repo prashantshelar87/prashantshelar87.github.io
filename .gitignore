@@ -7,7 +7,6 @@ vendor/
 .env.*
 *.key
 *.pem
-*.json
 
 # Build outputs
 dist/

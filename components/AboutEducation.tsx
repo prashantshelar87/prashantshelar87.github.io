@@ -45,7 +45,6 @@ const AboutEducation: React.FC = () => {
                   <p className="text-blue-600 font-medium mb-2">{edu.institution}</p>
                   <div className="flex justify-between items-center text-sm">
                     <span className="text-slate-500 italic">{edu.year}</span>
-                    <span className="bg-blue-50 text-blue-700 font-bold px-3 py-1 rounded-full">{edu.score}</span>
                   </div>
                 </div>
               ))}

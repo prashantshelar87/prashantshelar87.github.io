@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               {/* Professional placeholder icons */}
-              <a href="https://www.linkedin.com/in/prashant-shelar-123456789/" target="_blank" className="w-10 h-10 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-blue-600 hover:border-blue-600 transition-all shadow-sm">
+              <a href="https://www.linkedin.com/in/prashant-shelar-17392660/" target="_blank" className="w-10 h-10 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-blue-600 hover:border-blue-600 transition-all shadow-sm">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
               </a>
               <a href={`mailto:${PERSONAL_INFO.email}`} className="w-10 h-10 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-slate-600 hover:text-blue-600 hover:border-blue-600 transition-all shadow-sm">
@@ -64,9 +64,15 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} Prashant Shelar. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-slate-400 text-xs hover:text-blue-600 transition-colors">Resume Download</a>
-            <a href="#" className="text-slate-400 text-xs hover:text-blue-600 transition-colors">Privacy Policy</a>
-          </div>
+<a
+  href="assets/prashant_shelar_CV.pdf"
+  download
+  className="inline-flex items-center gap-2 text-xs
+             text-grey-400 hover:text-blue-600
+             transition-colors"
+>
+  Download CV
+</a>          </div>
         </div>
       </div>
     </footer>

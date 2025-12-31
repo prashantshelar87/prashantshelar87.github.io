@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { PERSONAL_INFO } from '../data';
-import profileImage from "../assets/images/profile1.png";
+import profileImage from "../public/images/profile1.png";
 
 
 const Hero: React.FC = () => {

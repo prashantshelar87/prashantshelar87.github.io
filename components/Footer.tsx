@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex space-x-6">
 <a
-  href="assets/prashant_shelar_CV.pdf"
+  href="public/prashant_shelar_CV.pdf"
   download
   className="inline-flex items-center gap-2 text-xs
              text-grey-400 hover:text-blue-600

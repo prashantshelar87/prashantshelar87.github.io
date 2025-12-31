@@ -65,14 +65,14 @@ const Footer: React.FC = () => {
           </p>
           <div className="flex space-x-6">
 <a
-  href="public/prashant_shelar_CV.pdf"
-  download
-  className="inline-flex items-center gap-2 text-xs
-             text-grey-400 hover:text-blue-600
-             transition-colors"
+  href="/prashant_shelar_CV.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 text-xs text-gray-400 hover:text-blue-600 transition-colors"
 >
-  Download CV
-</a>          </div>
+  View CV
+</a>
+         </div>
         </div>
       </div>
     </footer>
